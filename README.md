@@ -1,3 +1,15 @@
-# ModelView — GitHub Pages
-Загрузите `index.html` и `manifest.webmanifest` в корень репозитория и включите GitHub Pages: Settings → Pages → Deploy from branch → main → / (root).
-Поддерживается OBJ + MTL + текстуры, ZIP, выделение/скрытие деталей, управление материалами, светлая тема, каркас по видимым граням и мобильное управление.
+# ModelView 3DS v1
+
+Тестовая версия под загруженный `9.zip`.
+
+Поддерживает:
+- ZIP с 3DS + BMP/JPG/PNG/GIF/TGA текстурами;
+- сопоставление текстур по имени файла;
+- выбор Mesh нажатием;
+- скрытие/показ выбранного объекта;
+- режим «Внешний каркас» через EdgesGeometry + depthTest;
+- светлый фон;
+- постоянное освещение;
+- мобильное управление OrbitControls.
+
+Для GitHub Pages достаточно загрузить `index.html`, `style.css`, `app.js`.
